@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif }
+
+li { list-style: none;}
+a { text-decoration: none;}
+
+/* ----  Header----- */
+
+.header {
+background-color: rgba(222, 184, 135, 0.788);
+padding: 30px;
+position: absolute;
+width: 100vw;
+
+}
+.header_title{
+    text-align: center;}
+    
+.header_nav li{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width:768px)
+{   .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }    
+}
+
+/* ----- Main----- */
+.hero{
+    height: 100vh;
+    background-image:  url(../assets/img/fondo-manalu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    text-align: center;}
+
+.hero-text h2{
+    font-size: 3rem;
+color: beige;}
+
+.hero-text h3{ font-size: 1.5rem;
+    color: beige;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Sabores--- */
+.sabores{
+    padding: 10px;
+}
+.sabores-title{
+    background-color: rgb(243, 190, 126);
+    text-align: center;
+    color: grey;
+    padding: 20px;
+
+}
+.tarjeta{
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(185, 128, 52, 0.671);
+    border: rgb(134, 99, 0) solid 2px;
+    border-radius: 30px;
+
+
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.sabores-caja{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+.img-tarjeta{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.tarjeta-title{
+    color: rgb(116, 32, 6);
+    padding: 10px;
+    
+}
+.tarjeta-boton{
+    padding: 10px;
+    border-bottom: 20px chocolate solid;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    color: rgb(235, 227, 201);
+}
+
+
+/* --- Footer--- */
+.ubicacion{
+    background-color: rgba(243, 221, 193, 0.247); 
+}
+.ubicacion-title{
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: rgb(245, 204, 150);
+}
+.ubicacion-map{
+    width: 100vw;
+}
+
+.redes{
+    background-color: rgba(243, 221, 193, 0.247); 
+}
+.redes-title{
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: rgb(245, 204, 150);
+}
+.redes-caja{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
