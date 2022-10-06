@@ -10,23 +10,22 @@ a { text-decoration: none;}
 /* ----  Header----- */
 
 .header {
-background-color: rgba(222, 184, 135, 0.788);
+background-color: rgba(238, 159, 55, 0.788);
 padding: 30px;
 width: 100vw;
+
 }
 /* position: absolute; */
 .header_title{
     text-align: center;
     justify-content: center;}
-    
-    
+
 .header_nav { 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction:column;
     width:100%;
-   
 }
 
 @media (min-width:900px){
@@ -57,11 +56,9 @@ width: 100vw;
 }
 .hero-text{
     text-align: center;}
-
 .hero-text h2{
     font-size: 3rem;
-color: rgb(10, 7, 3);}
-
+    color: rgb(10, 7, 3);}
 .hero-text h3{ font-size: 1.5rem;
     color: rgb(27, 27, 16);
 }
