@@ -12,19 +12,29 @@ a { text-decoration: none;}
 .header {
 background-color: rgba(222, 184, 135, 0.788);
 padding: 30px;
-position: absolute;
 width: 100vw;
-
 }
+/* position: absolute; */
 .header_title{
-    text-align: center;}
+    text-align: center;
+    justify-content: center;}
     
-.header_nav li{ 
+    
+.header_nav { 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width:100%;
+   
 }
 
+@media (min-width:900px){
+    .header_nav{
+        flex-direction:row
+    }
+    
+}
 @media (min-width:768px)
 {   .header{
         display: flex;
@@ -34,6 +44,7 @@ width: 100vw;
 }
 
 /* ----- Main----- */
+
 .hero{
     height: 100vh;
     background-image:  url(../assets/img/fondo-manalu.jpg);
@@ -49,10 +60,10 @@ width: 100vw;
 
 .hero-text h2{
     font-size: 3rem;
-color: beige;}
+color: rgb(10, 7, 3);}
 
 .hero-text h3{ font-size: 1.5rem;
-    color: beige;
+    color: rgb(27, 27, 16);
 }
 .header-logo{
     display: flex;
@@ -72,8 +83,8 @@ color: beige;}
 
 }
 .tarjeta{
-    width: 350px;
-    height: 350px;
+    width:400px;
+    height: 370px;
     text-align: center;
     justify-content: center;
     background-color: rgba(185, 128, 52, 0.671);
@@ -81,8 +92,8 @@ color: beige;}
     border-radius: 30px;
 
 
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 
 }
 .sabores-caja{
@@ -90,12 +101,13 @@ color: beige;}
     display: flex;
     gap: 10px;
     overflow-x: auto;
+
 }
 .img-tarjeta{
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    border-radius: 20pxt;
+    border-radius: 20px;
 }
 .tarjeta-title{
     color: rgb(116, 32, 6);
@@ -104,11 +116,14 @@ color: beige;}
     
 }
 .tarjeta-boton{
-    padding: 10px;
-    border-bottom: 20px chocolate solid;
-    border-radius: 10%;
+    padding: 15px;
+    border-bottom: 20px rgb(82, 3, 3) solid;
+    border-radius: 20px;
     font-size: 1.5rem;
     color: rgb(235, 227, 201);
+    display: flex;
+    
+    justify-content: center;
 }
 
 
