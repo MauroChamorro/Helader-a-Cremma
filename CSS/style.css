@@ -10,43 +10,45 @@ a { text-decoration: none;}
 /* ----  Header----- */
 
 .header {
-background-color: rgba(238, 159, 55, 0.788);
+background-color: rgba(238, 159, 55, 0.356);
 padding: 30px;
 width: 100vw;
-
 }
-/* position: absolute; */
-.header_title{
-    text-align: center;
-    justify-content: center;}
+.header-title {
+width: 300px;
+font-weight: 700;
+display: flex;
+text-align: center;
+justify-content: center;
+}
 
 .header_nav { 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
+    justify-content: space-around;
     width:100%;
+   
 }
-
-@media (min-width:900px){
+@media (min-width: 768px){
     .header_nav{
-        flex-direction:row
+        flex-direction:row;
+        font-weight: 500;
+        font-size: 1,8rem;
+        
     }
-    
-}
-@media (min-width:768px)
-{   .header{
+    .header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }    
+    } 
 }
+
 
 /* ----- Main----- */
 
 .hero{
     height: 100vh;
-    background-image:  url(../assets/img/fondo-manalu.jpg);
+
+    background-image:  url(../assets/img/istockphoto-1335564975-170667a.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,12 +57,12 @@ width: 100vw;
     align-items: center;
 }
 .hero-text{
-    text-align: center;}
+    text-align:center;}
 .hero-text h2{
     font-size: 3rem;
-    color: rgb(10, 7, 3);}
+    color: rgb(2, 0, 122);}
 .hero-text h3{ font-size: 1.5rem;
-    color: rgb(27, 27, 16);
+    color: rgb(5, 59, 129);
 }
 .header-logo{
     display: flex;
@@ -79,29 +81,38 @@ width: 100vw;
     padding: 20px;
 
 }
+ 
+
+   
 .tarjeta{
-    width:400px;
-    height: 370px;
+    width: 600px;
+    height: 300px;
     text-align: center;
-    justify-content: center;
-    background-color: rgba(185, 128, 52, 0.671);
-    border: rgb(134, 99, 0) solid 2px;
-    border-radius: 30px;
-
-
-    display: flex;
-    flex-direction: column;
-
+    
+}
+@media(min-width:768px)
+{ 
+    .tarjeta{
+        width: 300px;
+        height: auto;
+        
+    }
+    .img-tarjeta{
+        width: auto;
+        height: auto;flex-direction: column;
+    }
 }
 .sabores-caja{
-    padding: 10px;
+    padding: 3px;
     display: flex;
     gap: 10px;
     overflow-x: auto;
 
 }
 .img-tarjeta{
-    width: 100%;
+    width: 90%;
+    height:30%;
+    
     align-items: center;
     justify-content: center;
     border-radius: 20px;
@@ -119,7 +130,7 @@ width: 100vw;
     font-size: 1.5rem;
     color: rgb(235, 227, 201);
     display: flex;
-    
+    text-align: center;
     justify-content: center;
 }
 
