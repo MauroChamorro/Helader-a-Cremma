@@ -1,0 +1,23 @@
+.header {
+    background-color: rgba(255, 208, 146, 0.938);
+    padding: 30px;
+    width: 100vw;
+   
+    &-title {
+    width: 300px;
+    font-weight: 700;
+    display:block; 
+    text-align: center;
+    justify-content: center;
+    }
+    &-nav { 
+     display: flex;
+        width:100%;
+        color: rgb(68, 40, 143);
+        font-size: 20px; }
+        &-logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+}

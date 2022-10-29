@@ -1,0 +1,46 @@
+.tarjeta{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+
+    &-title{
+        color: rgb(116, 32, 6);
+        padding: 10px;
+        font-size: 1rem;  
+    }
+    &-boton{
+        padding: 15px;
+        border-bottom: 20px rgb(82, 3, 3) solid;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        color: rgb(235, 227, 201);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    &-img{
+        width: 90%;
+        height:30%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    } 
+}
+.sabores{
+    padding: 10px;
+
+&-title{
+    background-color: rgb(243, 190, 126);
+    text-align: center;
+    color: grey;
+    padding: 20px;
+}
+&-caja{
+    padding: 3px;
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+}
+
+} 
