@@ -10,7 +10,7 @@ a { text-decoration: none;}
 /* ----  Header----- */
 
 .header {
-background-color: rgba(238, 159, 55, 0.356);
+background-color: rgba(255, 208, 146, 0.938);
 padding: 30px;
 width: 100vw;
 }
@@ -26,6 +26,8 @@ justify-content: center;
     display: flex;
     justify-content: space-around;
     width:100%;
+    color: rgb(68, 40, 143);
+    font-size: 20px;
    
 }
 @media (min-width: 768px){
@@ -86,15 +88,16 @@ justify-content: center;
    
 .tarjeta{
     width: 600px;
-    height: 300px;
+    height: 50px;
     text-align: center;
+    justify-content: center;
     
 }
 @media(min-width:768px)
 { 
     .tarjeta{
         width: 300px;
-        height: auto;
+        height: 500px;
         
     }
     .img-tarjeta{
@@ -105,7 +108,7 @@ justify-content: center;
 .sabores-caja{
     padding: 3px;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     overflow-x: auto;
 
 }
