@@ -1,0 +1,12 @@
+.productos{
+    &-title{ 
+    color: grey;
+    background-color: rgb(245, 204, 150);
+    text-align: center;
+    padding: 10px;}
+    &-caja{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

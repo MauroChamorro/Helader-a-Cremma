@@ -1,0 +1,12 @@
+.history{
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    padding: 30px;
+    &-tarjeta{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       padding: 30px;
+    }
+}
