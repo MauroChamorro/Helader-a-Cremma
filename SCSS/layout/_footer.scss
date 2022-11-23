@@ -45,7 +45,16 @@ width: 50%;
 @media(min-width: 768px)
 {
     .redes-caja{
-        display: grid;
-        grid-template-columns: auto;
+        display:grid;
+        grid-template-rows: center;
+        justify-content: center;
+        align-items: center;
+
     }
+    // &_link{
+    //     font-size: 300px;
+    //     display: grid;
+    //     grid-template-columns: auto;
+
+    // }
 }
